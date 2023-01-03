@@ -75,7 +75,7 @@ function SignInForm() {
                                 type="password"
                                 placeholder="Password"
                                 name="password"
-                                value="password"
+                                value={password}
                                 onChange={handleChange} />
                         </Form.Group>
                         {errors.password?.map((message, idx) => (
