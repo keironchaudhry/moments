@@ -21,7 +21,7 @@ export const CurrentUserProvider = ({ children }) => {
             // make note that it was originally just 'axios'
             setCurrentUser(data)
         } catch (err) {
-            console.log(err)
+            // console.log(err)
         }
     }
 
